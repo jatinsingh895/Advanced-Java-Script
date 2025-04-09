@@ -75,12 +75,12 @@
 // }
 // someFunction("hi","there!","how  are you");
 // RETURNING FUNCTION VALUE
-function addTwoNumbers(num1, num2) {
-    return num1 + num2;
-}
-let resultsArr = [];
-for (let i = 0; i < 10; i++) {
-    let result = addTwoNumbers(i, 2 * i);
-    resultsArr.push(result);
-}
-console.log(resultsArr);
+// function addTwoNumbers(num1, num2) {
+//     return num1 + num2;
+// }
+// let resultsArr = [];
+// for (let i = 0; i < 10; i++) {
+//     let result = addTwoNumbers(i, 2 * i);
+//     resultsArr.push(result);
+// }
+// console.log(resultsArr);
