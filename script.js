@@ -84,3 +84,61 @@
 //     resultsArr.push(result);
 // }
 // console.log(resultsArr);
+// RETURNING WITH ARROW FUNCTIONS today
+// let addTwoNumbers=(x,y)=>x+y;
+// let result=addTwoNumbers(12,15);
+// console.log(result);
+// let addTwoNumbers=(x,y)=>
+// {
+//     console.log("Adding...");
+//     return x+y;
+// }
+// VARIABLE SCOPE IN FUNCTIONS
+// SCOPE
+// function testAvailability(x){
+//     console.log("Available here:",x)
+// }
+// function testAvailability()
+// {
+//     let y="local variable";
+//     console.log("Available here:",y)
+// }
+// testAvailability();
+// console.log("not available here:",y);
+// function doingstuff(){
+//     if (true){
+//         var x="local";
+//     }
+//     console.log(x);
+// }
+// doingstuff();
+// function doingstuff(){
+//     if (true){
+//         console.log(x);
+//         var x="local";
+//     }
+// }
+// doingstuff();
+// function doingstuff(){
+//     if (true){
+//         console.log(x);
+//         let x="local";
+//     }
+// }
+// doingstuff();
+// CONST SCOPE
+// function doingstuff(){
+//     if (true){
+//         console.log(x);
+//         constx="local";
+//     }
+// }
+// doingstuff();
+// GLOBAL VARIABLES
+// let x="global";
+// function doingstuff(){
+//     let x = "local";
+//     console.log(x);
+// }
+// doingstuff();
+// console.log(x);
